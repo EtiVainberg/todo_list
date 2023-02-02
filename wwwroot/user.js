@@ -112,10 +112,7 @@ const updateid=document.getElementById('updateId');
 const updatename=document.getElementById('taskName');
 const isdone=document.getElementById('isDone');
 finalUpdate.onclick=()=>{
-    // let td= new ToDo();
-    // td.id=updateid.value;
-    // td.name=updatename.value;
-    // td.isdone=isdone.value;
+    
     let td={
         id:updateid.value,
         name:updatename.value,
