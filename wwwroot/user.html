@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager / User</title>
+</head>
+<body>
+    <h1>Task Mangager</h1>
+    <a  href="/admin.html">manage users</a>
+    <div id="container">
+    </div>
+    <button id="add">Add To Do</button>
+    <div id="toAdd" style="visibility:hidden">
+         <input type="text" name="name" id="name" placeholder="to do name">
+         <button id="finalAdd">Add</button>
+    </div>
+    <button id="del">Delete To Do</button>
+    <div id="toDelete" style="visibility:hidden">
+     id:
+     <input type="number" name="id" id="id">
+     <button id="finalDelete">delete</button>
+     </div>
+
+     <button id="update">Update To Do</button>
+    <div id="toUpdate" style="visibility:hidden">
+     id:
+     <input type="number" name="updateId" id="updateId">
+     <input type="text" name="taskName" id="taskName" placeholder="new task name">
+     <input type="checkbox" name="isDone" id="isDone">
+     <button id="finalUpdate">update</button>
+     </div>
+
+     <button id="certainToDo">Get a certain to do</button>
+     <div id="toCertainId" style="visibility:hidden">
+        <input type="number" name="taskid" id="taskid">
+        <button id="showCertain">show</button>
+        <div id="showContainer"></div>
+     </div>
+ 
+     <!-- <script src="app.js"></script> -->
+     <script src="user.js"></script>
+</body>
+</html>
