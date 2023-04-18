@@ -1,7 +1,7 @@
 # todo_list
-הפרויקט המיוחד הזה מכיל משתמשים
-ניתן להיכנס רק על ידי משתמש קיים 
-הוספת משתמש רק על ידי המנהל
-לכל משתמש המשימות שלו שרק הוא יכול לראות
-אפשר לעדכן, למחוק ולהוסיף עוד ועוד משימות
-בתקווה שתהנו!
+This special project contains users
+Can only be logged in by an existing user
+Adding a user only by the administrator
+Each user has his own tasks that only he can see
+You can update, delete and add more and more tasks
+Hope you enjoy!
